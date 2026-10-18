@@ -1,0 +1,373 @@
+{
+  "editor.lineNumbers": "relative",
+  "editor.wordWrap": "off",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorBlinking": "smooth",
+  "editor.smoothScrolling": true,
+  "editor.minimap.enabled": false,
+  "editor.lineHeight": 1.6,
+  "editor.guides.indentation": false,
+  "editor.guides.bracketPairs": false,
+  "editor.guides.highlightActiveIndentation": false,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "editor.semanticHighlighting.enabled": true,
+  "editor.rulers": [],
+  "editor.codeLens": false,
+  "editor.folding": false,
+  "editor.glyphMargin": false,
+  "editor.occurrencesHighlight": "off",
+  "editor.renderLineHighlight": "gutter",
+  "editor.stickyScroll.enabled": false,
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.overviewRulerBorder": false,
+  "editor.scrollbar.vertical": "hidden",
+  "editor.scrollbar.horizontal": "hidden",
+  "breadcrumbs.enabled": false,
+  "window.commandCenter": false,
+  "window.menuBarVisibility": "toggle",
+  "workbench.layoutControl.enabled": false,
+  "workbench.startupEditor": "none",
+  "workbench.editor.empty.hint": "hidden",
+  "workbench.sideBar.location": "right",
+  "update.showReleaseNotes": false,
+  "workbench.editor.showTabs": "single",
+  "workbench.editor.enablePreview": false,
+  "workbench.activityBar.location": "hidden",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.productIconTheme": "fluent-icons",
+  "workbench.list.smoothScrolling": true,
+  "workbench.list.keyboardNavigation": "filter",
+  "workbench.tree.indent": 12,
+  "window.density.editorTabHeight": "compact",
+  "workbench.tree.renderIndentGuides": "none",
+  "explorer.compactFolders": true,
+  "explorer.autoReveal": true,
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    "*.component.ts": "${capture}.component.html, ${capture}.component.css, ${capture}.component.scss, ${capture}.component.spec.ts"
+  },
+  "editor.linkedEditing": true,
+  "editor.cursorSurroundingLines": 8,
+  "vim.leader": "<space>",
+  "vim.useSystemClipboard": true,
+  "vim.hlsearch": true,
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "k"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": [";"],
+      "after": [":"]
+    },
+    {
+      "before": ["v", "v"],
+      "after": ["v", "i", "w"]
+    },
+    {
+      "before": ["0"],
+      "after": ["g", "^"]
+    },
+    {
+      "before": ["g", "0"],
+      "after": ["0"]
+    },
+    {
+      "before": ["$"],
+      "after": ["g", "$"]
+    },
+    {
+      "before": ["0"],
+      "after": ["g", "^"]
+    },
+    {
+      "before": ["g", "0"],
+      "after": ["0"]
+    },
+    {
+      "before": ["$"],
+      "after": ["g", "$"]
+    },
+    {
+      "before": ["<C-d>"],
+      "after": ["<C-d>", "z", "z"]
+    },
+    {
+      "before": ["<C-u>"],
+      "after": ["<C-u>", "z", "z"]
+    },
+    {
+      "before": ["n"],
+      "after": ["n", "z", "z", "z", "v"]
+    },
+    {
+      "before": ["N"],
+      "after": ["N", "z", "z", "z", "v"]
+    },
+    {
+      "before": ["<C-s>"],
+      "commands": ["workbench.action.files.save"]
+    },
+    {
+      "before": ["<C-a>"],
+      "after": ["g", "g", "V", "G"]
+    },
+    {
+      "before": ["<leader>", "s", "r"],
+      "commands": ["editor.action.startFindReplaceAction"]
+    },
+    {
+      "before": ["<leader>", "w", "v"],
+      "commands": ["workbench.action.splitEditor"]
+    },
+    {
+      "before": ["<leader>", "w", "h"],
+      "commands": ["workbench.action.splitEditorOrthogonal"]
+    },
+    {
+      "before": ["<leader>", "w", "e"],
+      "commands": ["workbench.action.evenEditorWidths"]
+    },
+    {
+      "before": ["<leader>", "w", "x"],
+      "commands": ["workbench.action.closeEditorsInGroup"]
+    },
+    {
+      "before": ["<leader>", "h"],
+      "commands": ["workbench.action.decreaseViewWidth"]
+    },
+    {
+      "before": ["<leader>", "l"],
+      "commands": ["workbench.action.increaseViewWidth"]
+    },
+    {
+      "before": ["<leader>", "k"],
+      "commands": ["workbench.action.increaseViewHeight"]
+    },
+    {
+      "before": ["<leader>", "j"],
+      "commands": ["workbench.action.decreaseViewHeight"]
+    },
+    {
+      "before": ["<C-h>"],
+      "commands": ["workbench.action.navigateLeft"]
+    },
+    {
+      "before": ["<C-l>"],
+      "commands": ["workbench.action.navigateRight"]
+    },
+    {
+      "before": ["<C-k>"],
+      "commands": ["workbench.action.navigateUp"]
+    },
+    {
+      "before": ["<C-j>"],
+      "commands": ["workbench.action.navigateDown"]
+    },
+    {
+      "before": ["<leader>", "f", "f"],
+      "commands": ["workbench.action.quickOpen"]
+    },
+    {
+      "before": ["<leader>", "f", "w"],
+      "commands": ["workbench.action.findInFiles"]
+    },
+    {
+      "before": ["<leader>", "e"],
+      "commands": ["workbench.action.toggleSidebarVisibility"]
+    },
+    {
+      "before": ["<leader>", "t", "h"],
+      "commands": ["workbench.action.selectTheme"]
+    },
+    {
+      "before": ["<leader>", "t", "i"],
+      "commands": ["workbench.action.selectIconTheme"]
+    },
+    {
+      "before": ["g", "i"],
+      "commands": ["editor.action.goToImplementation", "cancelSelection"]
+    },
+    {
+      "before": ["g", "r"],
+      "commands": ["editor.action.goToReferences"]
+    },
+    {
+      "before": ["<leader>", "g", "i"],
+      "commands": ["editor.action.peekImplementation"]
+    },
+    {
+      "before": ["<leader>", "g", "r"],
+      "commands": ["editor.action.peekLocations"]
+    },
+    {
+      "before": ["<leader>", "g", "r"],
+      "commands": ["editor.action.referenceSearch.trigger"]
+    },
+    {
+      "before": ["<leader>", "r", "n"],
+      "commands": ["editor.action.rename"]
+    }
+  ],
+  "vim.visualModeKeyBindingsNonRecursive": [
+    {
+      "before": ["0"],
+      "after": ["^"]
+    },
+    {
+      "before": ["g", "0"],
+      "after": ["0"]
+    },
+    {
+      "before": ["$"],
+      "after": ["g", "_"]
+    },
+    {
+      "before": ["<"],
+      "after": ["<", "g", "v"]
+    },
+    {
+      "before": [">"],
+      "after": [">", "g", "v"]
+    },
+    {
+      "before": ["p"],
+      "after": ["P"]
+    },
+    {
+      "before": ["<A-j>"],
+      "commands": ["editor.action.moveLinesDownAction"]
+    },
+    {
+      "before": ["<A-k>"],
+      "commands": ["editor.action.moveLinesUpAction"]
+    },
+    {
+      "before": ["<leader>", "f"],
+      "commands": ["editor.action.formatSelection"]
+    },
+    {
+      "before": ["="],
+      "commands": ["editor.action.reindentselectedlines"]
+    }
+  ],
+  "terminal.integrated.sendKeybindingsToShell": false,
+  "terminal.integrated.commandsToSkipShell": [
+    "workbench.action.terminal.toggleTerminal",
+    "workbench.action.closePanel",
+    "workbench.action.terminal.hide",
+    "workbench.action.navigateUp",
+    "workbench.action.navigateDown",
+    "workbench.action.navigateLeft",
+    "workbench.action.navigateRight"
+  ],
+  "workbench.colorTheme": "One Dark Pro",
+  "editor.fontFamily": "'IosevkaSlim Nerd Font', monospace",
+  "editor.fontSize": 15,
+  "redhat.telemetry.enabled": false,
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "window.title": "${rootName}${dirty}",
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  },
+  "workbench.editor.navigationScope": "editorGroup",
+  "prettier.singleAttributePerLine": true,
+  "[angular-html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.tokenColorCustomizations": {
+    "[One Dark Pro]": {
+      "textMateRules": [
+        {
+          "scope": [
+            "punctuation.separator",
+            "punctuation.terminator",
+            "punctuation.definition.tag"
+          ],
+          "settings": {
+            "foreground": "#636d83"
+          }
+        },
+        {
+          "scope": ["entity.other.ng-binding-name.property.html"],
+          "settings": {
+            "foreground": "#e5c07b"
+          }
+        },
+        {
+          "scope": ["entity.other.ng-binding-name.event.html"],
+          "settings": {
+            "foreground": "#61afef"
+          }
+        },
+        {
+          "scope": [
+            "entity.other.ng-binding-name.two-way.html",
+            "entity.other.ng-binding-name.template.html"
+          ],
+          "settings": {
+            "foreground": "#c678dd"
+          }
+        },
+        {
+          "scope": ["punctuation.definition.ng-binding-name"],
+          "settings": {
+            "foreground": "#56b6c2"
+          }
+        },
+        {
+          "scope": ["entity.name.function.pipe.ng"],
+          "settings": {
+            "foreground": "#56b6c2"
+          }
+        },
+        {
+          "scope": [
+            "keyword.control.block.kind.ng",
+            "keyword.control.block.transition.ng",
+            "keyword.control.track.ng",
+            "control.block.ng"
+          ],
+          "settings": {
+            "foreground": "#c678dd"
+          }
+        }
+      ]
+    }
+  },
+  "custom-ui-style.stylesheet": {
+    ".editor-group-container:not(.active) .monaco-editor": "opacity: 0.55; transition: opacity 0.15s;",
+    ".editor-group-container > .title .monaco-icon-description-container": "display: none",
+    ".editor-group-container > .title > .title-actions .action-item.menu-entry": "display: none !important",
+    ".editor-group-container > .title .title-label a": "font-size: 12px !important",
+    ".title-label > h2": "display: none",
+    ".explorer-folders-view .monaco-tl-twistie": "width: 0 !important; min-width: 0 !important; padding-right: 0 !important; transform: none !important",
+    ".explorer-folders-view .monaco-tl-twistie::before": "display: none",
+    ".explorer-folders-view .monaco-list-row": "font-size: 12px",
+    ".explorer-folders-view .monaco-icon-label::before": "background-size: 14px !important; width: 14px !important; padding-right: 4px !important",
+    ".titlebar-container .window-appicon": "display: none",
+    ".titlebar-container .titlebar-center": "display: none",
+    ".titlebar-container .center-adjacent-toolbar-container": "display: none",
+    ".titlebar-container .update-toolbar-container": "display: none",
+    ".titlebar-container .action-toolbar-container": "display: none",
+    ".quick-input-widget": "top: 24vh !important; width: min(760px, 90vw) !important; left: calc(50% - min(760px, 90vw) / 2) !important; margin-left: 0 !important",
+    ".quick-input-widget .quick-input-header": "padding: 10px 12px",
+    ".quick-input-widget .quick-input-box input": "font-size: 15px !important; padding: 6px 8px !important",
+    ".quick-input-list": "font-size: 14px",
+    ".quick-input-list .quick-input-list-entry": "padding: 0 12px",
+    ".monaco-workbench:has(.quick-input-widget:not([style*='display: none']))::after": "content: ''; position: fixed; inset: 0; background: rgba(0, 0, 0, 0.5); z-index: 2500; pointer-events: none",
+    ".pane-header": "padding: 0 8px",
+    ".pane-body": "padding: 8px",
+    ".split-view-view:first-child .pane-header": "display: none !important;",
+    ".monaco-list-row": "border-radius: 4px;",
+    ".monaco-workbench .monaco-list:not(.element-focused):focus:before": "display: none;"
+  }
+}
