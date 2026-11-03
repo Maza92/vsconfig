@@ -5,6 +5,10 @@ miguelsolorio.fluent-icons
 miguelsolorio.min-theme
 miguelsolorio.symbols
 mikael.angular-beastcode
+ms-python.debugpy
+ms-python.python
+ms-python.vscode-pylance
+ms-python.vscode-python-envs
 pkief.material-icon-theme
 redhat.java
 subframe7536.custom-ui-style
